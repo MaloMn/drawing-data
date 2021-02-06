@@ -72,6 +72,9 @@ class PathFinder:
         self.walkable: Set[Tuple[int, int]] = walkable.copy()
         self.size: Tuple[int, int] = size
 
+    def update_walkable(self, walkable: Set[Tuple[int, int]]):
+        self.walkable = walkable
+
     def find_path(self, start: Tuple[int, int], target: Tuple[int, int]) -> List[Tuple[int, int]]:
         """
         Returns the path from the end of the arm to the target.
