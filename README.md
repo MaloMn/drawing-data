@@ -1,1 +1,4 @@
-"# Drawing-data" 
+# Drawing-data
+
+Purpose: digitalizing pen strokes
+
